@@ -13,13 +13,13 @@ module.exports = {
             "index": {
                 "global": "CryptoJS",
                 "exports": "CryptoJS",
-                "components": ["core", "x64-core", "lib-typedarrays", "enc-utf16", "enc-base64", "enc-base64url", "md5", "sha1", "sha256", "sha224", "sha512", "sha384", "sha3", "ripemd160", "hmac", "pbkdf2", "evpkdf", "cipher-core", "mode-cfb", "mode-ctr", "mode-ctr-gladman", "mode-ofb", "mode-ecb", "pad-ansix923", "pad-iso10126", "pad-iso97971", "pad-zeropadding", "pad-nopadding", "format-hex", "aes", "seed", "tripledes", "rc4", "rabbit", "rabbit-legacy","blowfish"]
+                "components": ["core", "x64-core", "lib-typedarrays", "enc-utf16", "enc-base64", "enc-base64url", "enc-cp949", "md5", "sha1", "sha256", "sha224", "sha512", "sha384", "sha3", "ripemd160", "hmac", "pbkdf2", "evpkdf", "cipher-core", "mode-cfb", "mode-ctr", "mode-ctr-gladman", "mode-ofb", "mode-ecb", "pad-ansix923", "pad-iso10126", "pad-iso97971", "pad-zeropadding", "pad-nopadding", "format-hex", "aes", "seed", "tripledes", "rc4", "rabbit", "rabbit-legacy","blowfish"]
             },
             "crypto-js": {
                 "pack": true,
                 "global": "CryptoJS",
                 "exports": "CryptoJS",
-                "components": ["core", "x64-core", "lib-typedarrays", "enc-utf16", "enc-base64", "enc-base64url", "md5", "sha1", "sha256", "sha224", "sha512", "sha384", "sha3", "ripemd160", "hmac", "pbkdf2", "evpkdf", "cipher-core", "mode-cfb", "mode-ctr", "mode-ctr-gladman", "mode-ofb", "mode-ecb", "pad-ansix923", "pad-iso10126", "pad-iso97971", "pad-zeropadding", "pad-nopadding", "format-hex", "aes", "seed", "tripledes", "rc4", "rabbit", "rabbit-legacy","blowfish"]
+                "components": ["core", "x64-core", "lib-typedarrays", "enc-utf16", "enc-base64", "enc-base64url", "enc-cp949", "md5", "sha1", "sha256", "sha224", "sha512", "sha384", "sha3", "ripemd160", "hmac", "pbkdf2", "evpkdf", "cipher-core", "mode-cfb", "mode-ctr", "mode-ctr-gladman", "mode-ofb", "mode-ecb", "pad-ansix923", "pad-iso10126", "pad-iso97971", "pad-zeropadding", "pad-nopadding", "format-hex", "aes", "seed", "tripledes", "rc4", "rabbit", "rabbit-legacy","blowfish"]
             },
 
             // hash
@@ -185,6 +185,10 @@ module.exports = {
             "enc-base64url": {
                 "exports": "CryptoJS.enc.Base64url",
                 "components": ["core", "enc-base64url"]
+            },
+            "enc-cp949": {
+                "exports": "CryptoJS.enc.Cp949",
+                "components": ["core", "enc-cp949"]
             },
 
             // mode
